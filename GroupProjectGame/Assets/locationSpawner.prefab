@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2438408531809960739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7870561021359654646}
+  - component: {fileID: 1391632213051593421}
+  m_Layer: 0
+  m_Name: locationSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7870561021359654646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2438408531809960739}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1391632213051593421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2438408531809960739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab686a743c936314c9a61480e06482ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carParkPrefab: {fileID: 6555718882134085424, guid: 1fa1f7292a1291647b1ba4dfe91fe99f, type: 3}
+  terminalPrefab: {fileID: 7130309860911012891, guid: 0e4a3cf6da0a481439da0fa5670fef91, type: 3}
+  spawnInterval: 2
+  minDistanceFromOther: 5
+  allowedColors:
+  - {r: 0.27450982, g: 0.27450982, b: 0.27450982, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 1, g: 1, b: 1, a: 0}
+  - {r: 1, g: 0, b: 0, a: 0}
+  - {r: 0.43137255, g: 0, b: 0, a: 0}
+  - {r: 0.26400244, g: 1, b: 0, a: 0}
+  - {r: 0.1010772, g: 0.49019608, b: 0, a: 0}
+  - {r: 1, g: 0.8836636, b: 0, a: 0}
+  - {r: 1, g: 0.45229992, b: 0, a: 0}
+  - {r: 0, g: 0.7953818, b: 1, a: 0}
+  - {r: 0, g: 0.049598217, b: 1, a: 0}
+  - {r: 1, g: 0, b: 0.46949816, a: 0}
+  - {r: 1, g: 0, b: 0.9735141, a: 0}
+  - {r: 0.49774003, g: 0.12771448, b: 0.6603774, a: 0}
+  spawnPlane: {fileID: 0}
+  margin: 1
+  numberOfLocations: 0
+  maxLocations: 4
+  usedColors: []
